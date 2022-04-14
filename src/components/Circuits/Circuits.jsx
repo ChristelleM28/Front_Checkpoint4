@@ -21,7 +21,7 @@ useEffect(() => {
   return (
     <div>
       <NavBar />
-      <div className="container-pages">
+      <div className="container">
         <h1>Circuits</h1>
         <div className="container-carousel">
           <Carousel

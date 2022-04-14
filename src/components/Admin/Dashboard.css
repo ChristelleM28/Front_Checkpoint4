@@ -1,4 +1,23 @@
 .container-form {
   text-align:center;
 }
+.container-button{
+  display:flex;
+  justify-content:center;
+  margin:1rem;
+}
+.AdminButton {
+background-color: red;
+padding: 0.2rem;
+margin: 0.3rem;
+box-shadow:2px 3px #3a3939;
+text-align:center;
+} 
 
+.admin h2{
+  box-shadow:2px 3px #3a3939;
+}
+
+.divButton{
+  text-align:center
+}

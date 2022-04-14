@@ -4,7 +4,7 @@ import "./Infos.css";
 
 function Infos() {
   return (
-    <div>
+    <div className="container">
       <Navbar/>
       <h1>Infos</h1>
       <br></br>

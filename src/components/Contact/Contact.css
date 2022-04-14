@@ -1,6 +1,7 @@
 .contactMeForm {
   padding: 1rem;
-  margin: 7vh auto ;
+  width:80% ;
+  margin:auto;
 }
 
 .contactInput {
@@ -8,6 +9,7 @@
   height: 2rem;
   width: 100%;
   margin-bottom: 2rem;
+  color:#ffff;
 }
 
 .textAreaContact {

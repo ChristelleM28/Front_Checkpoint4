@@ -3,6 +3,7 @@ import axios from "axios";
 import NavBar from "../NavBar/NavBar";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
+import moment from "moment";
 import "./Calendrier.css";
 
 function Calendrier() {
@@ -21,7 +22,7 @@ useEffect(() => {
   return (
     <div>
       <NavBar />
-      <div className="container-pages">
+      <div className="container">
         <h1> Calendrier</h1>
         <div className="container-carousel">
           <Carousel
@@ -36,16 +37,18 @@ useEffect(() => {
               calendar.map((calendrier) => (
                 <div key={calendrier.id}>
                   <img
-                    src={calendrier.circuit_id}
+                    // src={calendrier.circuit.name}
+                    src="https://cdn.pixabay.com/photo/2015/04/19/08/32/marguerite-729510__480.jpg"
                     alt=""
                     className="img-size"
                   />
-                  <div className="overlay">
-                    <h3 className="overlay-title">
-                      {calendrier.category} </h3>
+                  <div className="overlay-title">
+                    <h3 >
+                      {calendrier.category}
+                      <br/> 
+                      {calendrier.circuit_id}</h3>
                     <p className="overlay-description">
-                      {calendrier.date}
-                    
+                      {moment(calendrier.date).format("DD/MM/YYYY")}
                     </p>
                   </div>
                 </div>

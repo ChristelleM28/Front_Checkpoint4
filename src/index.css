@@ -10,14 +10,15 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.container-pages{
-    margin:2rem;
-}
-
 .container {
   max-width: 1330px;
   margin: 0 auto;
   overflow: hidden;
+}
+
+.container-home {
+  background: #c42217;
+padding-bottom: 0.1rem;
 }
 
 ul li {
@@ -37,9 +38,9 @@ h1 {
     margin-bottom: 3rem;
 }
 
-h2, h3 {
+h2, h3, h4, p {
     text-align: center;
-    margin: 2rem;
+    margin: 1.5rem;
     }
 
 input{
@@ -47,11 +48,9 @@ input{
   height:1.6rem;
 }
 
-
-
-@media screen and (min-width: 1024px) {
+/* @media screen and (min-width: 1024px) {
   .container {
     padding-left: 1rem;
     padding-right: 1rem;
   }
-}
+} */
