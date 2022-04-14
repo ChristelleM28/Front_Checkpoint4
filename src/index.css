@@ -10,6 +10,16 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.container-pages{
+    margin:2rem;
+}
+
+.container {
+  max-width: 1330px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
 ul li {
   list-style-type: none;
 }
@@ -32,11 +42,11 @@ h2, h3 {
     margin: 2rem;
     }
 
-.container {
-  max-width: 1330px;
-  margin: 0 auto;
-  overflow: hidden;
+input{
+  margin:0.5rem;
+  height:1.6rem;
 }
+
 
 
 @media screen and (min-width: 1024px) {
