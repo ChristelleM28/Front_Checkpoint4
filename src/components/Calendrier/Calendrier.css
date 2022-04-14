@@ -1,0 +1,13 @@
+.carousel {
+  position: relative;
+}
+
+.contentCarousel {
+  width: 90%;
+  margin: auto;
+}
+
+.carousel .slider {
+  margin: auto;
+  width: 100%;
+}
