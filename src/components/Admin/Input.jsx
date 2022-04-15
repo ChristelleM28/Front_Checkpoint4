@@ -24,7 +24,6 @@ function Input({
         value={value}
         onChange={onChange}
         disabled={disabled}
-        // style={{ margin: "auto" }, {height:"2rem"}}
         placeholder={placeholder}
       />
     </label>

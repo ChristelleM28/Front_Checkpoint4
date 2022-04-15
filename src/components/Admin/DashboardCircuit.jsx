@@ -150,7 +150,7 @@ function DashboardCircuit() {
   return (
     <div className="container-pages">
       <div className="container-form">
-        <h1 className="admin"> DASHBOARD </h1>
+        <h1 className="admin"> Dashboard </h1>
         <h2>Administration du circuit</h2>
         <FormAdminCircuit
           circuits={circuits}
