@@ -57,7 +57,11 @@ function Contact() {
             </div>
           </div>
         </form>
-      <AdminButton type="submit" title="Envoyer"/>
+        <AdminButton type="submit" title="Envoyer" />
+      </div>
+
+      <div className="img-moto-contact">
+        <img src="/assets/rouge.jpg" />
       </div>
     </div>
   );

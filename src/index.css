@@ -1,15 +1,12 @@
-
 @font-face {
-    font-family: 'lavishly_yoursregular';
-    src: url(./font/lavishlyyours-regular-webfont.woff2) format('woff2'),
-         url(./font/lavishlyyours-regular-webfont.woff) format('woff');
-    font-weight: normal;
-    font-style: normal;
-
+  font-family: "lavishly_yoursregular";
+  src: url(./font/lavishlyyours-regular-webfont.woff2) format("woff2"),
+    url(./font/lavishlyyours-regular-webfont.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 
-*
-{
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -18,7 +15,8 @@
 body {
   background-color: #2b2929;
   color: #fff;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 .container {
@@ -29,7 +27,7 @@ body {
 
 .container-home {
   background: #c42217;
-padding-bottom: 0.1rem;
+  padding-bottom: 0.1rem;
 }
 
 ul li {
@@ -44,25 +42,27 @@ a {
 
 h1 {
   font-size: 3em;
-  font-family:lavishly_yoursregular ;
-    text-align: center;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+  font-family: lavishly_yoursregular;
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 
-h2, h3, h4, p {
-    text-align: center;
-    margin: 1.5rem;
-    }
-
-input{
-  margin:0.5rem;
-  height:1.6rem;
+h2,
+h3,
+h4,
+p {
+  text-align: center;
+  margin: 1.5rem;
 }
 
-/* @media screen and (min-width: 1024px) {
-  .container {
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
-} */
+h4{
+  margin-bottom:2rem;
+}
+
+
+input {
+  margin: 0.5rem;
+  height: 1.6rem;
+}
+

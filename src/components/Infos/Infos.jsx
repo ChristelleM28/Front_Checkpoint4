@@ -5,7 +5,7 @@ import "./Infos.css";
 function Infos() {
   return (
     <div className="container">
-      <Navbar/>
+      <Navbar />
       <h1>Infos</h1>
       <br></br>
       <h2> Le Championnat de France VMA 2022 est maintenant ouvert! </h2>
@@ -13,8 +13,13 @@ function Infos() {
       <h3>
         Retrouvez toutes les dates dans notre calendrier. Attention, quelques
         modifications ont eu lieu dans le règlement cette année concernant
-        l'endurance. N'oubliez pas de vérifier les nouvelles dispositions
+        l'endurance.
+        <br/>
+        N'oubliez pas de vérifier les nouvelles dispositions
       </h3>
+      <div className="img-moto">
+        <img src="/assets/dos_circuit.jpg" />
+      </div>
     </div>
   );
 }

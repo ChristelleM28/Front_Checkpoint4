@@ -36,12 +36,13 @@ function DashboardCircuit() {
 
   // je gère ma sélection
   const handleChange = (e) => {
-    console.log(e.target.name)
+    // console.log(e.target.name)
     setSelectedValue((prevstate) => ({
       ...prevstate,
       [e.target.name]: e.target.value,
     }));
   };
+
 
   //  Ajout de circuit
   const handleAddCircuits = async (e) => {
@@ -149,8 +150,10 @@ function DashboardCircuit() {
 
   return (
     <div className="container-pages">
+      {/* <AdminButton type="button" name="disconnect"> Log Out</AdminButton> */}
       <div className="container-form">
         <h1 className="admin"> Dashboard </h1>
+        
         <h2>Administration du circuit</h2>
         <FormAdminCircuit
           circuits={circuits}

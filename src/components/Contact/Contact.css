@@ -16,5 +16,14 @@
   height: 10rem;
   width: 100%;
   background-color: #2b2929;
-  color:#fff;
+  color:#ffff;
+}
+
+.img-moto-contact{
+  margin:auto;
+   text-align:center;
+}
+
+.img-moto-contact img{
+  width: 60%;
 }

@@ -1,0 +1,19 @@
+.img-moto-accueil {
+  width:30vw;
+  margin:auto
+}
+
+.img-moto-accueil img{
+width : 30vw;
+height: auto;
+animation: pulse 2s infinite alternate ease-in-out both
+}
+
+@keyframes pulse {
+  from {
+transform: scale(1)
+  }
+to{
+  transform: scale(1.2)
+}
+}

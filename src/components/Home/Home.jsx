@@ -1,12 +1,13 @@
 import React from "react";
-import NavBar from "../NavBar/NavBar";
+import { NavLink } from "react-router-dom";
+import "./Home.css";
 
 function Home() {
   return (
     <div>
       <div className="container-home">
         <img src="/assets/image-moto.png" alt="image moto" width="100%" />
-        <NavBar />
+
         <h1 className="h1-home">Partageons notre passion</h1>
       </div>
       <h3>
@@ -18,6 +19,12 @@ function Home() {
       </h3>
 
       <h4>Bonne visite !</h4>
+
+      <div className="img-moto-accueil">
+        <NavLink to="/infos">
+          <img src="/assets/blanc_Pau.jpg" alt="entrez" />
+        </NavLink>
+      </div>
     </div>
   );
 }
