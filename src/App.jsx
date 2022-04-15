@@ -5,6 +5,7 @@ import Infos from "./components/Infos/Infos";
 import Calendrier from "./components/Calendrier/Calendrier";
 import Circuits from "./components/Circuits/Circuits";
 import Contact from "./components/Contact/Contact";
+import Admin from "./components/Admin/DashboardCircuit";
 import "./App.css";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Route path="calendrier" element={<Calendrier />}></Route>
         <Route path="circuits" element={<Circuits />}></Route>
         <Route path="contact" element={<Contact />}></Route>
+        <Route path="admin" element={<Admin />}></Route>
       </Routes>
     </div>
   );

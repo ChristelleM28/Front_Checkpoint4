@@ -10,22 +10,20 @@ function NavBar() {
 
   return (
     <div className="container navbar">
-      <div style={{ padding: '2rem 1rem' }} className="navBarHeader">
+      <div style={{ padding: "2rem 1rem" }} className="navBarHeader">
         <div className="wrapper-navbar">
           <div className="navbar-logo">
             <NavLink
-              to="/home"
-              className={({ isActive }) => (isActive ? '' : '')}
+              to="/"
+              className={({ isActive }) => (isActive ? "" : "")}
               onClick={handleClick}
             >
-              <img
-                src="/assets/logo-moto.png"
-                alt="logo moto"
-                width={50}
-              />
+              <img src="/assets/logo-moto.png" alt="logo moto" width={80} />
             </NavLink>
           </div>
+
           <ul className="navbar-menu">
+
             <li>
               <NavLink to="/infos">Infos</NavLink>
             </li>
@@ -39,10 +37,10 @@ function NavBar() {
               <NavLink to="/contact">Contact</NavLink>
             </li>
           </ul>
-          
+
           <button
             type="button"
-            className={`burger ${open ? 'open' : ''}`}
+            className={`burger ${open ? "open" : ""}`}
             onClick={() => setOpen(!open)}
           >
             <span />
@@ -50,8 +48,8 @@ function NavBar() {
           </button>
         </div>
       </div>
-      <div className={`navbar-wrapper-mobile ${open ? 'open' : ''}`}>
-        <ul className={`navbar-mobile ${open ? 'open' : ''}`}>
+      <div className={`navbar-wrapper-mobile ${open ? "open" : ""}`}>
+        <ul className={`navbar-mobile ${open ? "open" : ""}`}>
           <li>
             <NavLink to="/infos" onClick={handleClick}>
               Infos

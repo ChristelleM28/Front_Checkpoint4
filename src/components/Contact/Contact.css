@@ -1,0 +1,29 @@
+.contactMeForm {
+  padding: 1rem;
+  width:80% ;
+  margin:auto;
+}
+
+.contactInput {
+  background-color: #2b2929;
+  height: 2rem;
+  width: 100%;
+  margin-bottom: 2rem;
+  color:#ffff;
+}
+
+.textAreaContact {
+  height: 10rem;
+  width: 100%;
+  background-color: #2b2929;
+  color:#ffff;
+}
+
+.img-moto-contact{
+  margin:auto;
+   text-align:center;
+}
+
+.img-moto-contact img{
+  width: 60%;
+}

@@ -73,9 +73,9 @@
   color: #c4c4c4;
 }
 
-@media screen and (min-width: 845px) {
+@media screen and (min-width: 1024px) {
   .navbar .navbar-logo img {
-    width: 80px;
+    width: 100px;
   }
 
   .navbar .navbar-wrapper-mobile.open,
@@ -97,4 +97,6 @@
   }
 }
 
+@media (min-width: 768px) {
 
+}
